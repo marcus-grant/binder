@@ -1,0 +1,4 @@
+# - A list of file paths to check for updated scripts
+# - I have a development folder where I do all my software development
+# - I prefer that system because it makes managing different codebases easier
+# - But they still need to be accessible, so binder uses this file to manage them

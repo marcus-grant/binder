@@ -1,0 +1,23 @@
+# any files holding private info to source should be stored in ./secrets
+*secrets/*
+
+# logs are host specific
+*logs/*
+
+# virtualenvs
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+pyenv.cfg
+.venv
+pip-selfcheck.json
+
+# editors
+*.swp
+
+# OS junk
+*.DS_*
+
