@@ -1,6 +1,9 @@
 # any files holding private info to source should be stored in ./secrets
 *secrets/*
 
+# the go-buffer is useful inside ~/bin, but should be managed seperately
+*go-buffer*
+
 # logs are host specific
 *logs/*
 
