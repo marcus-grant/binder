@@ -1,0 +1,78 @@
+17:21:23:395	e2ead780	args: -epool eth-us-east1.nanopool.org:9999 -ewal 0x9875b0355cd9777f1bbd7c4ff987fbe666426210/mark-haus-jord/marcusfg@gmail.com -epsw x  500 -mode 1 -ftime 20 -colors 1 
+17:21:23:395	e2ead780	
+17:21:23:395	e2ead780	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+17:21:23:395	e2ead780	บ        Claymore's Dual ETH + DCR/SC/LBC GPU Miner v7.3         บ
+17:21:23:395	e2ead780	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+17:21:23:395	e2ead780	
+17:21:23:596	e2ead780	ETH: 6 pools are specified
+17:21:23:596	e2ead780	Main Ethereum pool is eth-us-east1.nanopool.org:9999
+17:21:23:596	e2ead780	DCR: 5 pools are specified
+17:21:23:596	e2ead780	Main Decred pool is sia-eu1.nanopool.org:7777
+17:21:23:685	e2ead780	OpenCL platform: NVIDIA CUDA
+17:21:23:685	e2ead780	AMD OpenCL platform not found 
+17:21:23:701	e2ead780	CUDA initializing...
+
+17:21:23:701	e2ead780	NVIDIA Cards available: 1 
+17:21:23:701	e2ead780	CUDA Driver Version/Runtime Version: 9.1/8.0
+17:21:23:702	e2ead780	GPU #0: GeForce GTX 1070, 8110 MB available, 15 compute units, capability: 6.1
+
+17:21:23:702	e2ead780	Total cards: 1 
+17:21:23:817	e2ead780	No AMD cards in the list, ADL library will not be used.
+17:21:23:822	e2ead780	NVML version: 9.387.34
+17:21:23:837	a37fe700	ETH: Stratum - connecting to 'eth-us-east1.nanopool.org' <144.217.14.109> port 9999
+17:21:23:848	a37fe700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x9875b0355cd9777f1bbd7c4ff987fbe666426210/mark-haus-jord/marcusfg@gmail.com", ""], "id": 2, "method": "eth_submitLogin"}
+
+17:21:23:848	a37fe700	ETH: Stratum - Connected (eth-us-east1.nanopool.org:9999)
+17:21:23:928	e2ead780	DUAL MINING MODE ENABLED: ETHEREUM+DECRED
+17:21:23:928	e2ead780	ETH: eth-proxy stratum mode
+17:21:23:928	e2ead780	Watchdog enabled
+17:21:23:928	e2ead780	Remote management is enabled on port 3333
+17:21:23:928	e2ead780	
+17:21:23:937	a2b87700	 DCR: Stratum - connecting to 'sia-eu1.nanopool.org' <213.32.74.219> port 7777
+17:21:24:020	a2b87700	send: {"id": 1, "method": "mining.subscribe", "params": ["lbc 1.0"]}
+
+17:21:24:020	a2b87700	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+17:21:24:020	a2b87700	send: {"id": 2, "method": "mining.authorize", "params": ["YOUR_WALLET/YOUR_WORKER/YOUR_EMAIL","x"]}
+
+17:21:24:020	a2b87700	 DCR: Stratum - Connected (sia-eu1.nanopool.org:7777)
+17:21:24:040	a37fe700	got 282 bytes
+17:21:24:040	a37fe700	buf: {"jsonrpc":"2.0","id":2,"result":true}
+{"jsonrpc":"2.0","id":0,"result":["0x4b46a0cd32a71b0af3dc734b4d2704558aa2517b55ee6e0ae7048dc7d833ccfe","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:21:24:040	a37fe700	parse packet: 38
+17:21:24:040	a37fe700	ETH: Authorized
+17:21:24:040	a37fe700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:21:24:040	a37fe700	remove first packet 243
+17:21:24:040	a37fe700	new buf size: 243
+17:21:24:040	a37fe700	parse packet: 242
+17:21:24:040	a37fe700	eth: job changed
+17:21:24:040	a37fe700	new buf size: 0
+17:21:24:132	acc25700	Setting DAG epoch #170...
+17:21:24:141	a2b87700	got 338 bytes
+17:21:24:141	a2b87700	buf: {"jsonrpc":"2.0","id":1,"result":true}
+{"id":6,"jsonrpc":"2.0","params":["0","0x000000000000000192ca1c0bb24e81f4b6a2a2d673e50aed890ec4bc939be36200000000000000005c9f8c5a00000000f6d7145b4211753cd49634e91a14419b0c27341de01bd94214957408e805d82b","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+
+17:21:24:141	a2b87700	parse packet: 38
+17:21:24:141	a2b87700	 DCR: Failed to get nonce1 in initiate_stratum
+17:21:24:141	a2b87700	remove first packet 299
+17:21:24:141	a2b87700	new buf size: 299
+17:21:24:141	a2b87700	parse packet: 298
+17:21:24:141	a2b87700	new buf size: 0
+17:21:24:142	a37fe700	got 243 bytes
+17:21:24:142	a37fe700	buf: {"jsonrpc":"2.0","id":0,"result":["0x4b46a0cd32a71b0af3dc734b4d2704558aa2517b55ee6e0ae7048dc7d833ccfe","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:21:24:142	a37fe700	parse packet: 242
+17:21:24:142	a37fe700	eth: job is the same
+17:21:24:142	a37fe700	new buf size: 0
+17:21:24:201	a2b87700	got 39 bytes
+17:21:24:201	a2b87700	buf: {"jsonrpc":"2.0","id":2,"result":true}
+
+17:21:24:201	a2b87700	parse packet: 38
+17:21:24:201	a2b87700	 DCR: Authorized
+17:21:24:201	a2b87700	new buf size: 0
+17:21:26:011	acc25700	Setting DAG epoch #170 for GPU #0
+17:21:26:011	acc25700	Create GPU buffer for GPU #0
+17:21:27:243	a2b87700	checkread timeout
+17:21:27:645	e2ead780	Quit signal received...

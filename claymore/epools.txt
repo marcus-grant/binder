@@ -1,0 +1,5 @@
+POOL: eth-eu1.nanopool.org:9999, WALLET: 0x9875b0355cd9777f1bbd7c4ff987fbe666426210/mark-haus-jord/marcusfg@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 1
+POOL: eth-eu2.nanopool.org:9999, WALLET: 0x9875b0355cd9777f1bbd7c4ff987fbe666426210/mark-haus-jord/marcusfg@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 1
+POOL: eth-us-east1.nanopool.org:9999, WALLET: 0x9875b0355cd9777f1bbd7c4ff987fbe666426210/mark-haus-jord/marcusfg@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 1
+POOL: eth-us-west1.nanopool.org:9999, WALLET: 0x9875b0355cd9777f1bbd7c4ff987fbe666426210/mark-haus-jord/marcusfg@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 1
+POOL: eth-asia1.nanopool.org:9999, WALLET: 0x9875b0355cd9777f1bbd7c4ff987fbe666426210/mark-haus-jord/marcusfg@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 1

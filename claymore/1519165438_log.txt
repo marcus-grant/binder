@@ -1,0 +1,164 @@
+17:23:58:816	6d172780	args: -epool eth-us-east1.nanopool.org:9999 -ewal 0x9875b0355cd9777f1bbd7c4ff987fbe666426210/mark-haus-jord/marcusfg@gmail.com -epsw x  500 -mode 1 -ftime 20 -colors 1 
+17:23:58:816	6d172780	
+17:23:58:816	6d172780	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+17:23:58:816	6d172780	บ        Claymore's Dual ETH + DCR/SC/LBC GPU Miner v7.3         บ
+17:23:58:816	6d172780	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+17:23:58:816	6d172780	
+17:23:59:017	6d172780	ETH: 6 pools are specified
+17:23:59:017	6d172780	Main Ethereum pool is eth-us-east1.nanopool.org:9999
+17:23:59:017	6d172780	DCR: 5 pools are specified
+17:23:59:017	6d172780	Main Decred pool is sia-eu1.nanopool.org:7777
+17:23:59:055	6d172780	OpenCL platform: NVIDIA CUDA
+17:23:59:055	6d172780	AMD OpenCL platform not found 
+17:23:59:071	6d172780	CUDA initializing...
+
+17:23:59:071	6d172780	NVIDIA Cards available: 1 
+17:23:59:071	6d172780	CUDA Driver Version/Runtime Version: 9.1/8.0
+17:23:59:072	6d172780	GPU #0: GeForce GTX 1070, 8110 MB available, 15 compute units, capability: 6.1
+
+17:23:59:072	6d172780	Total cards: 1 
+17:23:59:179	6d172780	No AMD cards in the list, ADL library will not be used.
+17:23:59:180	6d172780	NVML version: 9.387.34
+17:23:59:188	42023700	ETH: Stratum - connecting to 'eth-us-east1.nanopool.org' <142.44.243.6> port 9999
+17:23:59:199	42023700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x9875b0355cd9777f1bbd7c4ff987fbe666426210/mark-haus-jord/marcusfg@gmail.com", ""], "id": 2, "method": "eth_submitLogin"}
+
+17:23:59:199	42023700	ETH: Stratum - Connected (eth-us-east1.nanopool.org:9999)
+17:23:59:286	6d172780	DUAL MINING MODE ENABLED: ETHEREUM+DECRED
+17:23:59:286	6d172780	ETH: eth-proxy stratum mode
+17:23:59:286	6d172780	Watchdog enabled
+17:23:59:286	6d172780	Remote management is enabled on port 3333
+17:23:59:286	6d172780	
+17:23:59:288	40f94700	 DCR: Stratum - connecting to 'sia-eu1.nanopool.org' <198.251.88.14> port 7777
+17:23:59:381	42023700	got 282 bytes
+17:23:59:381	42023700	buf: {"jsonrpc":"2.0","id":2,"result":true}
+{"jsonrpc":"2.0","id":0,"result":["0xca3e208cd1f94d0681fb3c692451843c4d259c81a5cf5d40bddceb02c51754b4","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:23:59:381	42023700	parse packet: 38
+17:23:59:381	42023700	ETH: Authorized
+17:23:59:381	42023700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:23:59:381	42023700	remove first packet 243
+17:23:59:381	42023700	new buf size: 243
+17:23:59:381	42023700	parse packet: 242
+17:23:59:381	42023700	eth: job changed
+17:23:59:381	42023700	new buf size: 0
+17:23:59:386	40f94700	send: {"id": 1, "method": "mining.subscribe", "params": ["lbc 1.0"]}
+
+17:23:59:386	40f94700	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+17:23:59:386	40f94700	send: {"id": 2, "method": "mining.authorize", "params": ["YOUR_WALLET/YOUR_WORKER/YOUR_EMAIL","x"]}
+
+17:23:59:386	40f94700	 DCR: Stratum - Connected (sia-eu1.nanopool.org:7777)
+17:23:59:389	43025700	Setting DAG epoch #170...
+17:23:59:476	42023700	got 243 bytes
+17:23:59:476	42023700	buf: {"jsonrpc":"2.0","id":0,"result":["0xca3e208cd1f94d0681fb3c692451843c4d259c81a5cf5d40bddceb02c51754b4","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:23:59:476	42023700	parse packet: 242
+17:23:59:476	42023700	eth: job is the same
+17:23:59:476	42023700	new buf size: 0
+17:23:59:548	40f94700	got 338 bytes
+17:23:59:548	40f94700	buf: {"jsonrpc":"2.0","id":1,"result":true}
+{"id":6,"jsonrpc":"2.0","params":["0","0x0000000000000001645b3570d4069fc2380232821a720e47c0109b104de1668c0000000000000000ca9f8c5a00000000a09eb20633521ef167a2823fe612fed94787edfa1df1ebd6f32eaa3849a00556","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+
+17:23:59:548	40f94700	parse packet: 38
+17:23:59:548	40f94700	 DCR: Failed to get nonce1 in initiate_stratum
+17:23:59:548	40f94700	remove first packet 299
+17:23:59:548	40f94700	new buf size: 299
+17:23:59:548	40f94700	parse packet: 298
+17:23:59:548	40f94700	new buf size: 0
+17:23:59:599	40f94700	got 39 bytes
+17:23:59:599	40f94700	buf: {"jsonrpc":"2.0","id":2,"result":true}
+
+17:23:59:599	40f94700	parse packet: 38
+17:23:59:599	40f94700	 DCR: Authorized
+17:23:59:599	40f94700	new buf size: 0
+17:23:59:619	40f94700	got 299 bytes
+17:23:59:619	40f94700	buf: {"id":6,"jsonrpc":"2.0","params":["1","0x0000000000000001645b3570d4069fc2380232821a720e47c0109b104de1668c0000000000000000ca9f8c5a00000000dda0197ff4796cf6b38b12197948c971246d0c84859a5e68b6bb005a69a69b9d","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+
+17:23:59:619	40f94700	parse packet: 298
+17:23:59:619	40f94700	new buf size: 0
+17:24:01:275	43025700	Setting DAG epoch #170 for GPU #0
+17:24:01:275	43025700	Create GPU buffer for GPU #0
+17:24:02:661	40f94700	checkread timeout
+17:24:05:701	40f94700	checkread timeout
+17:24:08:741	40f94700	checkread timeout
+17:24:08:753	43025700	GPU 0 DAG creation time - 7469 ms
+17:24:08:753	43025700	Setting DAG epoch #170 for GPU #0 done
+17:24:09:383	42023700	ETH: checking pool connection...
+17:24:09:383	42023700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:24:09:476	42023700	got 243 bytes
+17:24:09:476	42023700	buf: {"jsonrpc":"2.0","id":0,"result":["0xca3e208cd1f94d0681fb3c692451843c4d259c81a5cf5d40bddceb02c51754b4","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:24:09:476	42023700	parse packet: 242
+17:24:09:476	42023700	eth: job is the same
+17:24:09:476	42023700	new buf size: 0
+17:24:11:779	40f94700	checkread timeout
+17:24:13:704	42824700	ETH: put share nonce 2a16216003c41520
+17:24:13:704	42824700	ETH round found 1 shares
+17:24:13:705	42023700	ETH: 02/20/18-17:24:13 - SHARE FOUND - (GPU 0)
+17:24:13:705	42023700	send: {"id":4,"method":"eth_submitWork","params":["0x2a16216003c41520","0xca3e208cd1f94d0681fb3c692451843c4d259c81a5cf5d40bddceb02c51754b4","0xf19df9a8d6e86180a15b44a507ca7dd9911b45b654ee6fc20d2646652c71f9a8"]}
+
+17:24:13:808	42023700	got 39 bytes
+17:24:13:808	42023700	buf: {"jsonrpc":"2.0","id":4,"result":true}
+
+17:24:13:808	42023700	parse packet: 38
+17:24:13:808	42023700	ETH: Share accepted (103 ms)!
+17:24:13:808	42023700	new buf size: 0
+17:24:14:817	40f94700	checkread timeout
+17:24:17:507	42023700	got 243 bytes
+17:24:17:507	42023700	buf: {"jsonrpc":"2.0","id":0,"result":["0x0820a9960d89a44210fec5755636527aeef23ed19ec38d3db1d805acb7ec3ee0","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:24:17:507	42023700	parse packet: 242
+17:24:17:507	42023700	eth: job changed
+17:24:17:507	42023700	new buf size: 0
+17:24:17:508	42023700	ETH: 02/20/18-17:24:17 - New job from eth-us-east1.nanopool.org:9999
+17:24:17:508	42023700	target: 0x000000006df37f67 (diff: 10000MH), epoch #170
+17:24:17:508	42023700	ETH - Total Speed: 25.978 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+17:24:17:508	42023700	ETH: GPU0 25.978 Mh/s
+17:24:17:508	42023700	 DCR - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0
+17:24:17:508	42023700	 DCR: GPU0 0.000 Mh/s
+17:24:17:856	40f94700	checkread timeout
+17:24:19:383	42023700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x18bc496", "0x000000000000000000000000000000000000000000000000000000001920ce20"]}
+
+17:24:19:384	42023700	ETH: checking pool connection...
+17:24:19:384	42023700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:24:19:486	42023700	got 243 bytes
+17:24:19:486	42023700	buf: {"jsonrpc":"2.0","id":0,"result":["0x0820a9960d89a44210fec5755636527aeef23ed19ec38d3db1d805acb7ec3ee0","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:24:19:486	42023700	parse packet: 242
+17:24:19:486	42023700	eth: job is the same
+17:24:19:486	42023700	new buf size: 0
+17:24:19:837	40f94700	got 299 bytes
+17:24:19:837	40f94700	buf: {"id":6,"jsonrpc":"2.0","params":["2","0x0000000000000001645b3570d4069fc2380232821a720e47c0109b104de1668c000000000000000006a08c5a00000000fa225211a0076079bea40c78606b43852d496103d38fab870a2ac58e4a559313","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+
+17:24:19:837	40f94700	parse packet: 298
+17:24:19:837	40f94700	new buf size: 0
+17:24:19:837	40f94700	 DCR: Job timeout, disconnect, retry in 20 sec...
+17:24:29:290	6d172780	GPU0 t=44C fan=0%
+17:24:29:290	6d172780	em hbt: 0, dm hbt: 30005, fm hbt: 74, 
+17:24:29:290	6d172780	watchdog - thread 0, hb time 121
+17:24:29:290	6d172780	watchdog - thread 1, hb time 45
+17:24:29:386	42023700	ETH: checking pool connection...
+17:24:29:386	42023700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:24:29:479	42023700	got 243 bytes
+17:24:29:479	42023700	buf: {"jsonrpc":"2.0","id":0,"result":["0x0820a9960d89a44210fec5755636527aeef23ed19ec38d3db1d805acb7ec3ee0","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:24:29:479	42023700	parse packet: 242
+17:24:29:479	42023700	eth: job is the same
+17:24:29:479	42023700	new buf size: 0
+17:24:30:592	42023700	got 243 bytes
+17:24:30:592	42023700	buf: {"jsonrpc":"2.0","id":0,"result":["0x7bac2e21f4ebe1589fd6d8839589cf7e4c7d73d68089f9226e47401f6739e61a","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:24:30:592	42023700	parse packet: 242
+17:24:30:592	42023700	eth: job changed
+17:24:30:592	42023700	new buf size: 0
+17:24:30:592	42023700	ETH: 02/20/18-17:24:30 - New job from eth-us-east1.nanopool.org:9999
+17:24:30:592	42023700	target: 0x000000006df37f67 (diff: 10000MH), epoch #170
+17:24:30:592	42023700	ETH - Total Speed: 25.945 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+17:24:30:592	42023700	ETH: GPU0 25.945 Mh/s
+17:24:30:592	42023700	 DCR - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0
+17:24:30:592	42023700	 DCR: GPU0 0.000 Mh/s
+17:24:38:781	6d172780	Quit signal received...

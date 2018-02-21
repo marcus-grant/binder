@@ -1,0 +1,32 @@
+#!/bin/bash
+# Print a progress bar with these parameters:
+# currentState($1) totalStates($2) processName($3)
+# Taken and modified from https://github.com/fearside/ProgressBar
+progress-bar() {
+  # Debug output, uncomment to use
+  # echo "[DEBUG] progress-bar($@)"
+
+  # Process data
+  progressMark="#"
+  remainderMark="-"
+  let _progress=(${1}*100/${2}*100)/100
+  let _done=(${_progress}*4)/10
+  let _left=40-$_done
+
+  # set process name if present
+  processName=""
+  if [ ! -z "$3" ]; then
+    processName="of $3"
+  fi
+
+  # Build progressbar string lengths
+  _done=$(printf "%${_done}s")
+  _left=$(printf "%${_left}s")
+
+  # Build & Print ProgressBar
+  progressString="\rProgress $processName: "
+  progBar="[${_done// /$progressMark}${_left// /$remainderMark}] ${_progress}%%"
+  printf "$progressString$progBar"
+}
+
+progress-bar $@
