@@ -3,6 +3,7 @@
 
 # the go-buffer is useful inside ~/bin, but should be managed seperately
 *go-buffer*
+*go*
 
 # logs are host specific
 *logs/*
