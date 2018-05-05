@@ -8,6 +8,9 @@
 # logs are host specific
 *logs/*
 
+# claymore logs
+claymore/*log.txt
+
 # virtualenvs
 .Python
 [Bb]in
