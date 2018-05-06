@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+    <short>Dwarf Fortress Remote</short>
+    <description>Port used by the Dwarf Fortress Remote Server. (1235/udp)</description>
+  <port protocol="udp" port="1235"/>
+</service>
